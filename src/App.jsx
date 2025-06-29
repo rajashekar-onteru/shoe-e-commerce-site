@@ -10,36 +10,36 @@ import SuperQualty from "./Sections/SuperQualty";
 
 function App() {
   return (
-    <div className="px-10 py-5 relative">
+    <div>
       <section>
         <Navbar />
-      </section>{" "}
-      <section>
-        <Hero />
       </section>
-      <section>
+      <div className="px-16 py-5 max-md:px-6 relative">
         {" "}
-        <PopularProducts />
-      </section>
-      <section>
-        <SuperQualty />
-      </section>
-      <section>
-        {" "}
-        <CustomerReviews />
-      </section>
-      <section>
-        {" "}
-        <Services />
-      </section>
-      <section>
-        <SpecialOffers />
-      </section>
-      <section>
+        <section>
+          <Hero />
+        </section>
+        <section className="pt-28">
+          <PopularProducts />
+        </section>
+        <section className="pt-28">
+          <SuperQualty />
+        </section>
+        <section className="pt-28">
+          <Services />
+        </section>
+        <section className="pt-28">
+          <SpecialOffers />
+        </section>
+        <section className="mt-16 py-14 bg-pale-blue">
+          <CustomerReviews />
+        </section>
+        <section className="pt-10">
+          <Subscribe />
+        </section>
+      </div>{" "}
+      <section className="mt-16 p-14  bg-black">
         <Footer />
-      </section>
-      <section>
-        <Subscribe />
       </section>
     </div>
   );

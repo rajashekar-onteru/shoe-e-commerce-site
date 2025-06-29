@@ -3,7 +3,7 @@ import { products } from "../Constants";
 
 function PopularProducts() {
   return (
-    <div id="products" className="max-container max-sm:mt-12 mt-16">
+    <div id="products" className="max-container max-sm:mt-12 ">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold">
           Our <span className="text-coral-red">Popular </span>Products
@@ -14,8 +14,8 @@ function PopularProducts() {
         </p>
       </div>
       <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:gap-4 gap-14">
-        {products.map((product) => {
-          return <PopularProductCard key={products.name} {...product} />;
+        {products.map((product, index) => {
+          return <PopularProductCard key={index} {...product} />;
         })}
       </div>
     </div>

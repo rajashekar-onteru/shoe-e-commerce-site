@@ -26,7 +26,7 @@ function Hero() {
         </p>
         <Button imgURL={arrowRight} label="Shop Now" />
 
-        <div className="flex gap-16 justify-start items-start flex-wrap  mt-20 ">
+        <div className="flex gap-16 max-sm:gap-10 justify-start items-start flex-wrap  mt-20 ">
           {statistics?.map((item, index) => {
             return (
               <div key={item.label}>
@@ -48,6 +48,7 @@ function Hero() {
           {shoes.map((shoe, index) => {
             return (
               <ShoeCard
+                key={index}
                 imgURL={shoe}
                 changeShoe={(shoe) => {
                   setBigShoeShown(shoe);

@@ -4,8 +4,8 @@ import { hamburger } from "../assets/icons";
 
 function Navbar() {
   return (
-    <header className="flex justify-between z-10 w-full">
-      <a href="/">
+    <header className="flex justify-between z-50 w-full h-[70px] fixed bg-white top-0 pt-6 shadow-lg ">
+      <a href="/" className="px-16 max-md:px-6">
         <img src={headerLogo} alt="Logo" width={120} height={29} />
       </a>
       <div className="w-[60vw]">
@@ -32,7 +32,7 @@ function Navbar() {
       <div>
         <img
           src={hamburger}
-          className="h-6 hidden max-lg:block cursor-pointer"
+          className="h-6 hidden max-lg:block cursor-pointer mr-6"
           alt="Logo"
         />{" "}
       </div>
