@@ -31,7 +31,9 @@ function Hero() {
             return (
               <div key={item.label}>
                 <p className="text-4xl font-bold">{item.value}</p>
-                <p className="leading-7 text-slate-gray">{item.label}</p>
+                <p className="leading-7 text-slate-gray text-center">
+                  {item.label}
+                </p>
               </div>
             );
           })}

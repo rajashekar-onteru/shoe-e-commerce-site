@@ -15,7 +15,7 @@ function PopularProductCard({ imgURL, name, price }) {
         {name}
       </h1>
       <p className="mt-2 font-semibold font-montserrat text-coral-red text-2xl">
-        {price}
+        &#x20B9; {price}
       </p>
     </div>
   );
