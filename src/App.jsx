@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import RevealOnScroll from "./components/RevealOnSCroll";
+
 import CustomerReviews from "./Sections/CustomerReviews";
 import Footer from "./Sections/Footer";
 import Hero from "./Sections/Hero";
@@ -8,6 +8,7 @@ import Services from "./Sections/Services";
 import SpecialOffers from "./Sections/SpecialOffers";
 import Subscribe from "./Sections/Subscribe";
 import SuperQualty from "./Sections/SuperQualty";
+import RevealOnScroll from "./components/RevealOnScroll";
 
 function App() {
   return (
