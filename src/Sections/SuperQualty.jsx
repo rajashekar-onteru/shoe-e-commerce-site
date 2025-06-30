@@ -12,7 +12,7 @@ function SuperQualty() {
         <h1 className="text-4xl font-bold font-palanquin lg:max-w-lg">
           We Provide You
           <span className="text-coral-red "> Super </span>
-          <span className="text-coral-red "> Quality</span>Shoes
+          <span className="text-coral-red "> Quality</span> Shoes
         </h1>
         <p className="mt-4 lg:max-w-lg font-montserrat text-slate-gray text-lg leading-7">
           Ensuring premium comfort and style, our meticulously created shoes are

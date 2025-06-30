@@ -13,8 +13,8 @@ function Hero() {
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
-        <h1 className="text-8xl font-bold mt-10 max-sm:text-[72px] max-sm:leading-[82px] font-palanquin">
-          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
+        <h1 className="text-8xl font-bold mt-10 max-sm:text-[72px] max-sm:leading-[82px] font-montserrat">
+          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10 ">
             The New Arrival
           </span>
           <br />
